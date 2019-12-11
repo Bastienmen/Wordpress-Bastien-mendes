@@ -1,0 +1,104 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Dosis', sans-serif;
+  color: #615858;
+}
+
+.maj{
+    text-transform: uppercase;
+}
+.gras{
+    font-weight: bold;
+}
+.t{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.separate{
+    border-bottom:solid 2px ;
+    padding-top: 2%;
+}
+
+header{
+  background-color: #0d7619;
+}
+header div{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  list-style-type: none;
+  display:flex;
+  align-items: center;
+}
+header ul a {
+  color: aliceblue;
+  padding: 0.7rem;
+  text-decoration: none;
+  font-size: 2rem;
+  
+}
+
+.section-1{
+    background-size: cover;
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+    padding: 10%;
+    font-size: 2.5em ;
+    text-align:center;
+    
+}
+.section-1 p{
+    margin: 0.1em;
+}
+.section-1 .t2{
+    color: #9acf64;
+}
+.section-1 button{
+    margin-top: 2em;
+    background-color:#395e1b;
+    border: none;
+    border-radius : 30px;
+    padding: 1em;
+}
+
+.section-2{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10% 20%;    
+}
+
+.section-3{
+    text-align: center;
+    padding: 10% 20%;
+    background-color: #ffebd3;
+
+}
+.sec3_orga{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.sec3_gauche{
+}
+.sec3_droite{
+    
+}
+.sous_titre{
+    text-align: center;
+    font-size: 2.7em;
+    color: #0d7619;
+}
+.contenu{
+    text-align: left;
+    font-size:2.5em;
+}
